@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Dishes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.clipped-header {
+    background: url('https://images.pexels.com/photos/1435895/pexels-photo-1435895.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+    position: relative;
+}
+
+.clipped-header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.new-dishes {
+    padding: 20px;
+    text-align: center;
+}
+
+.new-dishes h2 {
+    margin-bottom: 20px;
+}
+
+.dish {
+    display: inline-block;
+    margin: 10px;
+}
+
+.dish img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.dish p {
+    margin: 5px 0 0;
+}
+
+.gif-section {
+    position: relative;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.gif-section img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+.caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    animation: moveCaption 3s infinite alternate;
+}
+
+@keyframes moveCaption {
+    from {
+        transform: translate(-50%, -50%) translateX(0);
+    }
+    to {
+        transform: translate(-50%, -50%) translateX(20px);
+    }
+}
+</style>
+<body>
+    <header class="clipped-header">
+        <h1>Welcome to Our Restaurant</h1>
+    </header>
+    <section class="new-dishes">
+        <h2>Check Out Our New Dishes</h2>
+        <div class="dish">
+            <img src="https://images.pexels.com/photos/262959/pexels-photo-262959.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dish 1">
+            <p>Fish</p>
+        </div>
+        <div class="dish">
+            <img src="https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dish 2">
+            <p>Peri Peri Fries</p>
+        </div>
+        <div class="dish">
+            <img src="https://images.pexels.com/photos/674574/pexels-photo-674574.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dish 3">
+            <p>Southern Touch</p>
+        </div>
+<div class="dish">
+            <img src="https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dish 3">
+            <p>Natural ice creams</p>
+        </div>
+<div class="dish">
+            <img src="https://images.pexels.com/photos/1893566/pexels-photo-1893566.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Dish 3">
+            <p>Puddings</p>
+        </div>
+
+<div class="dish">
+            <img src="https://images.pexels.com/photos/14705141/pexels-photo-14705141.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dish 3">
+            <p>Waffel with icecream</p>
+        </div>
+<div class="dish">
+            <img src="https://images.pexels.com/photos/2983101/pexels-photo-2983101.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dish 3">
+            <p>Burger with frenchies</p>
+        </div>
+<div class="dish">
+            <img src="https://images.pexels.com/photos/691114/pexels-photo-691114.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dish 3">
+            <p>Egg scrambled</p>
+        </div>
+<div class="dish">
+            <img src="https://images.pexels.com/photos/1351238/pexels-photo-1351238.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dish 3">
+            <p>Spanish sandwich</p>
+        </div>
+<div class="dish">
+            <img src="https://images.pexels.com/photos/568370/pexels-photo-568370.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Dish 3">
+            <p>Pizza</p>
+        </div>
+
+
+
+    </section>
+    <section class="gif-section">
+        <img src="https://www.icecream.com/content/dam/dreyersgrandicecreaminc/us/en/haagen-dazs/home/desktop/HD-Headline-GIF.gif" alt="Delicious Dish GIF">
+        <div class="caption">Delight in Every Bite!</div>
+    </section>
+    
+</body>
+</html>
